@@ -23,6 +23,12 @@
       "name": "new user",
       "email": "newuser@gmail.com",
       "password": "!@#$%^"
+    },
+    {
+      "id": "cc22",
+      "name": "new user",
+      "email": "newuser1@gmail.com",
+      "password": "123456"
     }
   ],
   "orders": [
@@ -342,6 +348,49 @@
       ],
       "total": "127.77",
       "orderDate": "17/07/2024, 13:13:36",
+      "status": "Panding"
+    },
+    {
+      "id": "8f83",
+      "userId": "cc22",
+      "products": [
+        {
+          "id": 3,
+          "title": "Wooden Glass",
+          "price": "26.39",
+          "images": [
+            {
+              "image": "../images/product/product3.png"
+            },
+            {
+              "image": "../images/product/product1.2.png"
+            },
+            {
+              "image": "../images/product/product1.1.png"
+            }
+          ],
+          "quantity": 4
+        },
+        {
+          "id": 2,
+          "title": "Wooden Serving Bowl",
+          "price": "84.99",
+          "images": [
+            {
+              "image": "../images/product/product2.png"
+            },
+            {
+              "image": "../images/product/product1.3.png"
+            },
+            {
+              "image": "../images/product/product1.2.png"
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "total": "111.38",
+      "orderDate": "18/07/2024, 12:03:07",
       "status": "Panding"
     }
   ]
