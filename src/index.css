@@ -252,7 +252,7 @@ body {
 /* testimonials */
 .testimonials {
   position: relative;
-  background-image: url("./images/hero/bg1.jpg");
+  background-image: url("../public/images/hero/bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
