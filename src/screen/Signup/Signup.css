@@ -1,0 +1,11 @@
+::selection{
+    background: rgba(26,188,156,0.3);
+  }
+  .register{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 50px auto;
+  }
+  .Toastify__toast-container{
+    margin-top: 60px;
+  }
