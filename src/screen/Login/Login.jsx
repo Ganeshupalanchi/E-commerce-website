@@ -5,6 +5,8 @@ import { toast } from "react-toastify";
 export default function Login() {
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [allUsers, setAllUsers] = useState();
+  console.log(allUsers);
+
   const navigate = useNavigate();
   useEffect(() => {
     const fetchUsers = () =>
@@ -25,6 +27,8 @@ export default function Login() {
       (user) =>
         user.email === formData.email && user.password === formData.password,
     );
+    console.log(allUsers);
+
     if (loggedInUser) {
       // console.log(loggedInUser);
       toast.success("Login Successfully ...");

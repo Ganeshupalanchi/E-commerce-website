@@ -1,4 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { toast } from "react-toastify";
 
 const initialState = {
   user: null,
@@ -31,8 +32,13 @@ const userSlice = createSlice({
         state.loading = true;
       })
       .addCase(signUpUser.fulfilled, (state, action) => {
-        state.loading = false;
-        state.user = action.payload;
+        console.log(action.payload);
+        if (action.payload) {
+          state.loading = false;
+          state.user = action.payload;
+        } else {
+          toast.error("Signup Failed.");
+        }
       })
       .addCase(signUpUser.rejected, (state, action) => {
         state.loading = false;

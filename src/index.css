@@ -168,7 +168,7 @@ body {
 }
 .menu-container.closed {
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateX(100%);
 }
 /* Add the sticky class to make the header sticky */
 .header {
@@ -252,7 +252,7 @@ body {
 /* testimonials */
 .testimonials {
   position: relative;
-  background-image: url("./images/hero/bg1.jpg");
+  background-image: url("../public/images/hero/bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

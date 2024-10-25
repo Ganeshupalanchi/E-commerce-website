@@ -29,6 +29,30 @@
       "name": "new user",
       "email": "newuser1@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": "efbc",
+      "name": "new test",
+      "email": "test1@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "69f1",
+      "name": "ganesh",
+      "email": "test2@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "ee0e",
+      "name": "test",
+      "email": "test2@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "de0b",
+      "name": "new test user",
+      "email": "test3@gmail.com",
+      "password": "test@123"
     }
   ],
   "orders": [
@@ -391,6 +415,32 @@
       ],
       "total": "111.38",
       "orderDate": "18/07/2024, 12:03:07",
+      "status": "Panding"
+    },
+    {
+      "id": "db9b",
+      "userId": "40e0",
+      "products": [
+        {
+          "id": 7,
+          "title": "Wooden Bottles",
+          "price": "21.24",
+          "images": [
+            {
+              "image": "../images/product/product7.png"
+            },
+            {
+              "image": "../images/product/product1.3.png"
+            },
+            {
+              "image": "../images/product/product1.1.png"
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": "21.24",
+      "orderDate": "18/07/2024, 16:58:58",
       "status": "Panding"
     }
   ]

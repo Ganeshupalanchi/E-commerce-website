@@ -29,9 +29,10 @@ export default function Header() {
       "Are you sure you want to proceed to logout?",
     );
     if (confirmed) {
+      setIsOpen(false);
       sessionStorage.removeItem("loggedInUser");
       setIsOpenProfileMenu(false);
-      toggleMenu();
+      // toggleMenu();
       navigate("/login");
     }
   };
