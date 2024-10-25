@@ -26,7 +26,6 @@ export default function Login() {
       (user) =>
         user.email === formData.email && user.password === formData.password,
     );
-    console.log(allUsers);
 
     if (loggedInUser) {
       // console.log(loggedInUser);
