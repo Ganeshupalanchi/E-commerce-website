@@ -5,7 +5,6 @@ import { toast } from "react-toastify";
 export default function Login() {
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [allUsers, setAllUsers] = useState();
-  console.log(allUsers);
 
   const navigate = useNavigate();
   useEffect(() => {
